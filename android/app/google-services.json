@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "30883473665",
+    "firebase_url": "https://whatsapp-dfeca.firebaseio.com",
+    "project_id": "whatsapp-dfeca",
+    "storage_bucket": "whatsapp-dfeca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30883473665:android:5fd9a3d7f61910098e1300",
+        "android_client_info": {
+          "package_name": "com.whats.jeancarloslefchak.whats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30883473665-crksk32oq17omh9t1uhlqmh5c6bprjbf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtbhlZEweH0-4NJvPmN2ZSgDgTE4ns_Us"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30883473665-crksk32oq17omh9t1uhlqmh5c6bprjbf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
