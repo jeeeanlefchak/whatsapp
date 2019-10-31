@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:whats/Cadastro.dart';
 
 class Login extends StatefulWidget {
   @override
@@ -39,6 +40,7 @@ class _LoginState extends State<Login> {
                 ),
                 TextField(
                   keyboardType: TextInputType.text,
+                  obscureText: true,
                   style: TextStyle(fontSize: 20),
                   decoration: InputDecoration(
                       contentPadding: EdgeInsets.fromLTRB(32, 16, 62, 16),
@@ -71,7 +73,12 @@ class _LoginState extends State<Login> {
                       ),
                     ),
                     onTap: (){
-                      
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context)=> Cadastro()
+                          )
+                      );
                     },
                   ),
                 )
