@@ -58,7 +58,6 @@ class _CadastroState extends State<Cadastro> {
     auth.createUserWithEmailAndPassword(
             email: usuario.email, password: usuario.senha)
         .then((firebaseUser) {
-      
           Navigator.push(
               context,
               MaterialPageRoute(
